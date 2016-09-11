@@ -1,0 +1,136 @@
+.main .rect{
+    height:2.5rem;
+    background: #555555;
+    /*transition:all 0.4s;*/
+    -webkit-animation: bounceInDown 2s linear   both;
+    animation: bounceInDown 2s linear   both;
+}
+.main #list1 .rect{
+    transform: translate(0,.4rem);
+}
+
+.main #list2 ul{
+    
+    left: 0.50rem;
+    top: 4.05rem;
+    -webkit-animation: zoomIn 1s  linear   both;
+    animation: zoomIn 1s linear   both;
+}
+.main #list3 .li1{
+    
+    top: 1.70rem;
+    right: 0.32rem;
+    transform: rotate(18deg);
+    -webkit-animation: fadeIn 1s 1.5s linear   both;
+    animation: fadeIn 1s 1.5s linear   both;
+}
+.main #list3 .li2{
+    
+    top: 2.80rem;
+    left: 1.06rem;
+    transform: rotate(-25deg);
+    -webkit-animation: fadeIn 1s 1s linear   both;
+    animation: fadeIn 1s linear 1s  both;
+}
+.main #list3 .li3{
+    top: 3.90rem;
+    right:0.83rem;
+    -webkit-animation: fadeIn 1s .5s linear   both;
+    animation: fadeIn 1s .5s linear   both;
+}
+.main #list3 .li4{
+    left: 0.98rem;
+    top: 5rem;
+    -webkit-animation: fadeIn 1s linear   both;
+    animation: fadeIn 1s linear   both;
+}
+.main #list3 .l1{
+    top:2.09rem;
+    right: 0.68rem;
+    -webkit-animation: zoomIn 2s 2s linear   both;
+    animation: zoomIn 2s 2s linear   both;
+}
+.main #list3>.a,.main #list3>.b,.main #list3>.e,.main #list3>.f{
+    -webkit-animation: bounceInLeft 1s 1.5s linear   both;
+    animation: bounceInLeft 1s 1.5s linear   both;
+}
+.main #list3>.c,.main #list3>.d,.main #list3>.g,.main #list3>.h{
+    -webkit-animation: bounceInRight 1s 1.5s linear   both;
+    animation: bounceInRight 1s 1.5s linear   both;
+}
+.main #list3 .l2{
+    
+    top:  3.24rem;
+    left: 1.29rem;
+    -webkit-animation: zoomIn 1s 1s linear   both;
+    animation: zoomIn 1s linear 1s  both;
+}
+.main #list3 .l3{
+    
+    top: 4.3rem;
+    right: 1.17rem;
+    -webkit-animation: zoomIn 1s .5s linear   both;
+    animation: zoomIn 1s .5s linear   both;
+}
+.main #list3 .l4{
+    
+    left: 1.20rem;
+    top: 5.5rem;
+    -webkit-animation: zoomIn 1s linear   both;
+    animation: zoomIn 1s linear   both;
+}
+.main #list4  .ulsss li:nth-child(1){
+    background: palegreen;
+    width: 1.5rem;
+    -webkit-animation: bounceInLeft 1s 1.5s linear   both;
+    animation: bounceInLeft 1s 1.5s linear   both;
+}
+.main #list4  .ulsss li:nth-child(2){
+    background: palevioletred;
+    width: 1.7rem;
+    -webkit-animation: bounceInLeft 1s 2s linear   both;
+    animation: bounceInLeft 1s 2s linear   both;
+}
+.main #list4  .ulsss li:nth-child(3){
+    background: plum;
+    width: .9rem;
+    -webkit-animation: bounceInLeft 1s 2.5s linear   both;
+    animation: bounceInLeft 1s 2.5s linear   both;
+}
+.main #list4 .ulsss li:nth-child(4){
+    -webkit-animation: bounceInLeft 1s 3s linear   both;
+    animation: bounceInLeft 1s 3s linear   both;
+}
+
+.main #list4  .ulsss li:nth-child(5){
+    background: paleturquoise;
+    width: 1.7rem;
+    -webkit-animation: bounceInLeft 1s 3.5s linear   both;
+    animation: bounceInLeft 1s 3.5s linear   both;
+}
+.main #list4  .ulsss li:nth-child(6){
+    background: red;
+    width: 2.5rem;
+    -webkit-animation: bounceInLeft 1s 4s linear   both;
+    animation: bounceInLeft 1s 4s linear   both;
+}
+.main #list4  .ulss .a,.main #list4  .ulss .b,.main #list4  .ulss .c,.main #list4  .ulss .d{
+    background: #fcf7f7;
+    height: 22px;
+    width: 2.5rem;
+    -webkit-animation: bounceInLeft 1s 1s linear   both;
+    animation: bounceInLeft 1s 1s linear   both;
+}  .main #list5 ._b .a{
+    
+    top: 2.5rem;
+    right: 0.1rem;
+    -webkit-animation: zoomIn 1s  linear   both;
+    animation: zoomIn 1s linear   both;
+}
+.main #list5 ._b .b{
+    
+    top: 2.9rem;
+    right: 0.5rem;
+    -webkit-animation: bounceIn 1s 1s linear   both;
+    animation: bounceIn 1s 1s linear   both;
+}
